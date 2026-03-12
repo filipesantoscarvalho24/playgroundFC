@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Race Car</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hud">
+        <h1>Keyboard Race Car</h1>
+        <p>Use <strong>←/→</strong> or <strong>A/D</strong> to steer. Press <strong>Space</strong> to restart after a crash.</p>
+        <p>Score: <span id="score">0</span></p>
+        <p>Best: <span id="best">0</span></p>
+        <p id="status">Avoid traffic and survive as long as possible.</p>
+      </section>
+      <canvas id="game" width="420" height="640" aria-label="Race track"></canvas>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
